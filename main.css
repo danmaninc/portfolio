@@ -70,6 +70,13 @@ a {
     color: white;
 }
 
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .contacts-container {
     display: flex;
     justify-content: center;
