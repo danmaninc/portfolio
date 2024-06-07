@@ -8,77 +8,7 @@
     <title>Daniil Nikulin — web developer</title>
     <link rel="preconnect" href="https://rsms.me/">
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <style>
-        html {
-            background: #171717;
-            color: white;
-            font-family: Inter, serif;
-        }
-        mark {
-            background-color: #444444;
-            color: rgba(255, 255, 255, 0.75);
-            padding: 0.1rem 0.3rem;
-            border-radius: 0.5rem;
-        }
-        main {
-            width: auto;
-            margin: 5rem 25rem;
-        }
-        .introduction {
-            display: flex;
-            flex-direction: column;
-        }
-        .introduction-name {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 0.25rem;
-
-        }
-        .introduction-name > img {
-            width: 6rem;
-            border-radius: 1rem;
-        }
-        .introduction-name > h1 {
-            margin: 0;
-        }
-        .introduction-name > span {
-            color: rgba(255, 255, 255, 0.75)
-        }
-        .introduction-description {
-            text-align: center;
-        }
-        .projects-container {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-        }
-        .project {
-            height: 6rem;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            background: #333333;
-            border-radius: 1rem;
-            padding: 2rem;
-            gap: 2rem;
-        }
-        .project-title {
-            font-weight: 600;
-            font-size: 1.15rem;
-        }
-        .project-info {
-            display: flex;
-            flex-direction: column;
-        }
-        .project-logo {
-            width: 6rem;
-        }
-        a {
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="main.css"/>
 </head>
 <body>
     <main>
@@ -88,31 +18,38 @@
                 <h1>Daniil Nikulin</h1>
                 <span><mark>aka</mark> danmaninc, dminc</span>
                 <p class="introduction-description">Hello! I am 19 y.o. <mark>web developer</mark> and <mark>Computer Science</mark> student from <a href="https://innopolis.university">Innopolis University</a>.
-                    <br/>I love learning web development and applying my skills to projects.
+                    <br/>I love learning web development and applying my skills to projects. <br/> <br/>
+                    I am interested in <mark>collaborating to awesome projects</mark>. If you have one — <span style="text-decoration: underline;">contact</span> me. <br/> I would be happy to discuss it with you, my friend!
                 </p>
             </div>
-
+        </section>
+        <section class="contacts">
+            <div class="contacts-container">
+                <a id="gh-link" href="https://github.com/danmaninc/"><i class="fa6-brands--github"></i></a>
+                <a id="tg-link" href="https://t.me/JustDanman"><i class="fa6-brands--telegram"></i></a>
+                <a id="email" href="mailto:dminc.work@gmail.com"><i class="fa--envelope"></i></a>
+            </div>
         </section>
         <section class="projects">
             <h2>Projects</h2>
-            <div class="projects-container">
-                <div class="project">
+            <ul class="projects-container">
+                <li class="project">
                     <img class="project-logo" style="border-radius: 1rem;" alt="Stress Testers logo" src="https://sun1-19.userapi.com/s/v1/if2/8DJUQPEL7edfo8Zy6_o3dmTqFNhIq7m4cWI7n2H_1UMTtRfeEhJjszkkgep8qQk4D1SvWJKfxUcjKmzn-v3SLMo7.jpg?size=666x676&quality=96&crop=107,149,666,677&ava=1"/>
                     <div class="project-info">
                         <span class="project-title">Stress Testers app</span>
                         <p class="project-description">Web application for code stress-testing</p>
                         <a class="project-link" href="https://stress.dminc.ru/">check out</a>
                     </div>
-                </div>
-                <div class="project">
+                </li>
+                <li class="project">
                     <img class="project-logo" alt="InNoHassle logo" src="https://innohassle.ru/_next/static/media/logo.1d464cf5.svg"/>
                     <div class="project-info">
                         <span class="project-title">InNoHassle</span>
                         <p class="project-description">Website of InNoHassle ecosystem — services for Innopolis students</p>
                         <a class="project-link" href="https://innohassle.ru/">check out</a>
                     </div>
-                </div>
-            </div>
+                </li>
+            </ul>
         </section>
     </main>
 </body>
