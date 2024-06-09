@@ -3,16 +3,14 @@ html {
     color: white;
     font-family: Inter, serif;
 }
-mark {
-    background-color: #444444;
-    color: rgba(255, 255, 255, 0.75);
-    padding: 0.1rem 0.3rem;
-    border-radius: 0.5rem;
-}
 main {
     width: auto;
     margin: 5rem 25rem;
 }
+a {
+    color: white;
+}
+
 .introduction {
     display: flex;
     flex-direction: column;
@@ -38,6 +36,34 @@ main {
 .introduction-description {
     text-align: center;
 }
+mark {
+    background-color: #444444;
+    color: rgba(255, 255, 255, 0.75);
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.5rem;
+}
+
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+.contacts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.contacts > h2 {
+    margin-top: 0;
+}
+
+
 .projects-container {
     display: flex;
     flex-direction: column;
@@ -82,30 +108,8 @@ main {
     color: black;
     background: rgba(255, 255, 255, 0.8);
 }
-.contact:hover {
-    color: rgba(255, 255, 255, 0.8);
-}
-a {
-    color: white;
-}
 
 
-.contacts {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.contacts-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-}
-.contacts > h2 {
-    margin-top: 0;
-}
 
 .fa6-brands--github {
     display: inline-block;
@@ -161,6 +165,8 @@ a {
     -webkit-mask-size: 100% 100%;
     mask-size: 100% 100%;
 }
+
+
 @media (min-width: 374px) and (max-width: 960px) {
     main {
         margin: 2.5rem 0.5rem;
