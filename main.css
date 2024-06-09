@@ -103,6 +103,9 @@ a {
     align-items: center;
     gap: 0.5rem;
 }
+.contacts > h2 {
+    margin-top: 0;
+}
 
 .fa6-brands--github {
     display: inline-block;
