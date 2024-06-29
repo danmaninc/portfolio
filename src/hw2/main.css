@@ -1,0 +1,14 @@
+html {
+    background: #171717;
+    height: 100vh;
+    font-family: Inter, serif;
+    color: white;
+}
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    height: auto;
+    margin: 0;
+}
