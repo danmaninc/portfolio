@@ -12,7 +12,7 @@ export function Profile({ name, nicknames, description, avatarLink, avatarAlt}: 
     let nicks;
     if (nicknames) {
         nicks = nicknames.map((nick) => `${nick}, `)
-        let lastElement = nicks[nicks.length-1];
+        const lastElement = nicks[nicks.length-1];
         nicks[nicks.length-1] = lastElement.slice(0, lastElement.length-2);
     } else {
         nicks = null;
