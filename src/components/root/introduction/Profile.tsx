@@ -1,4 +1,4 @@
-import './profile.module.css';
+import './profile.css';
 import React from "react";
 
 interface ProfileProps {
