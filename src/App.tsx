@@ -1,11 +1,11 @@
 import './App.css'
-import {ProjectContainer} from "./components/projects/ProjectContainer.tsx";
-import {Project} from "./components/projects/Project.tsx";
-import {Contact} from "./components/contacts/Contact.tsx";
-import {ContactsContainer} from "./components/contacts/ContactsContainer.tsx";
+import {ProjectContainer} from "./components/root/projects/ProjectContainer.tsx";
+import {Project} from "./components/root/projects/Project.tsx";
+import {Contact} from "./components/root/contacts/Contact.tsx";
+import {ContactsContainer} from "./components/root/contacts/ContactsContainer.tsx";
 import {Profile} from "./components/introduction/Profile.tsx";
 import {ProfileDescription} from "./components/introduction/ProfileDescription.tsx";
-import {Section} from "./components/Section.tsx";
+import {Section} from "./components/root/section/Section.tsx";
 
 function App() {
 

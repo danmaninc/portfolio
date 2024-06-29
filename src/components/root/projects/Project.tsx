@@ -1,5 +1,5 @@
 import './projects.css';
-import '../../icons.css';
+import '../../../icons.css';
 interface ProjectProps {
     title: string;
     description: string;
