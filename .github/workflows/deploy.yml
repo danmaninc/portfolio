@@ -20,7 +20,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: main
+          branch: gh-pages
           folder: dist
           target-folder: dist
           commit-message: "ci: build bundle and deploy"
