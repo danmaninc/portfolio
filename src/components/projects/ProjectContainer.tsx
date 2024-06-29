@@ -1,3 +1,4 @@
+import './projects.css'
 import React from "react";
 
 interface ProjectContainerProps {

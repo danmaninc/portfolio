@@ -1,3 +1,4 @@
+import './contacts.css';
 import React from "react";
 
 interface ContactsContainerProps {
