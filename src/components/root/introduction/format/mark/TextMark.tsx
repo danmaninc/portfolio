@@ -1,4 +1,4 @@
-import './mark.module.css'
+import './mark.css'
 interface MarkProps {
     children: React.ReactNode;
 }
