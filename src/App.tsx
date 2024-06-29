@@ -3,9 +3,9 @@ import {ProjectContainer} from "./components/root/projects/ProjectContainer.tsx"
 import {Project} from "./components/root/projects/Project.tsx";
 import {Contact} from "./components/root/contacts/Contact.tsx";
 import {ContactsContainer} from "./components/root/contacts/ContactsContainer.tsx";
-import {Profile} from "./components/introduction/Profile.tsx";
-import {ProfileDescription} from "./components/introduction/ProfileDescription.tsx";
-import {Section} from "./components/root/section/Section.tsx";
+import {Profile} from "./components/root/introduction/Profile.tsx";
+import {ProfileDescription} from "./components/root/introduction/ProfileDescription.tsx";
+import {Section} from "./components/layout/section/Section.tsx";
 
 function App() {
 
