@@ -6,9 +6,6 @@ import {ContactsContainer} from "./components/root/contacts/ContactsContainer.ts
 import {Profile} from "./components/root/introduction/Profile.tsx";
 import {ProfileDescription} from "./components/root/introduction/ProfileDescription.tsx";
 import {Section} from "./components/layout/section/Section.tsx";
-import {Route, Routes} from "react-router-dom";
-import {Homework2} from "./hw2/main.tsx";
-
 
 function App() {
 
@@ -48,10 +45,6 @@ function App() {
                 />
             </ProjectContainer>
         </Section>
-        <Routes>
-            <Route path="/" element={<App/>}/>
-            <Route path="hw2/" element={<Homework2/>}/>
-        </Routes>
     </>
   )
 }
