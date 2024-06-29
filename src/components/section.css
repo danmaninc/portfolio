@@ -1,0 +1,9 @@
+.section-centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-margin-rm {
+    margin-top: 0;
+}
