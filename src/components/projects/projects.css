@@ -1,0 +1,45 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 2rem;
+    padding: 0;
+}
+.project {
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #262626;
+    border-radius: 1rem;
+    padding: 2rem;
+    gap: 2rem;
+}
+.project-title {
+    font-weight: 600;
+    font-size: 1.15rem;
+}
+.project-info {
+    display: flex;
+    flex-direction: column;
+}
+.project-logo {
+    width: 6rem;
+    border-radius: 1rem;
+}
+.project-link {
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+    background: white;
+    width: fit-content;
+    border-radius: 0.5rem;
+}
+.project-link:hover {
+    color: black;
+    background: rgba(255, 255, 255, 0.8);
+}
