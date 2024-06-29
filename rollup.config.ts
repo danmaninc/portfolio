@@ -1,12 +1,17 @@
-//import { RollupOptions } from "rollup";
+import { RollupOptions } from "rollup";
 import typescript from '@rollup/plugin-typescript';
 import { nodeResolve } from "@rollup/plugin-node-resolve";
-export default {
-    input: 'hw2/hw2.ts',
-    output: { file: 'dist/hw2.js' },
+import commonjs from '@rollup/plugin-commonjs';
+import terser from '@rollup/plugin-terser';
+
+const bundle: RollupOptions = {
+    input: 'src/hw2.ts',
+    output: { file: 'dist/bundle.js' },
     plugins: [
         typescript(),
         nodeResolve({ browser: true }),
+        commonjs(),
+        terser()
     ],
 }
-// export default bundle
+export default bundle
