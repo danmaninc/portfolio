@@ -22,4 +22,6 @@ jobs:
         with:
           branch: main
           folder: dist
+          target-folder: dist
+          commit-message: "ci: build bundle and deploy"
           clean: false
