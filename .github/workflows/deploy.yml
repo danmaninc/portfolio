@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Deploy to GitHub Pages
 on:
   push:
     branches:
@@ -12,16 +12,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Build
-        run: |
-          npm i
-          npm run build
-
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
         with:
-          branch: gh-pages
-          folder: dist
-          target-folder: dist
-          commit-message: "ci: build bundle and deploy"
-          clean: false
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm i
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
