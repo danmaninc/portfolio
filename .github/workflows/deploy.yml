@@ -23,5 +23,5 @@ jobs:
           branch: gh-pages
           folder: dist
           target-folder: dist
-          commit-message: "ci: build bundle and deploy"
+          commit-message: "ci: build bundle and deploy to gh pages"
           clean: false
