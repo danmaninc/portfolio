@@ -1,3 +1,4 @@
+import './profile.css';
 import {TextMark} from "./format/mark/TextMark.tsx";
 import {TextLink} from "./format/TextLink.tsx";
 

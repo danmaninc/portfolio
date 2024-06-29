@@ -1,3 +1,4 @@
+import './contacts.css';
 interface ContactProps {
     id: string;
     link: string;
