@@ -1,7 +1,7 @@
 import {useState} from "react";
 import {Comic} from "./Comic.tsx";
 import { fetchComicId, fetchComic } from "../../lib/api.ts"
-import '../../hw2/main.css'
+import './comic.css'
 import dayjs from 'dayjs'
 import relativeTime from 'dayjs/plugin/relativeTime';
 dayjs.extend(relativeTime);

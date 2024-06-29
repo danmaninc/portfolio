@@ -4,6 +4,7 @@ interface ComicProps {
     title: string;
     date: string;
 }
+import './comic.css'
 export function Comic({ comicLink, comicAlt, title, date } : ComicProps) {
     return (
         <div>
