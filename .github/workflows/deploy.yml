@@ -63,6 +63,9 @@ jobs:
       - name: Linting
         run: npm run lint
 
+      - name: Formatting
+        run: npx prettier . --check
+
       - name: Build with Next.js
         run: npx --no-install next build
 
