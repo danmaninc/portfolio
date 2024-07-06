@@ -19,7 +19,7 @@ export function Profile({ name, nicknames, description, avatarLink, avatarAlt}: 
     }
     return (
         <div className="flex flex-col justify-center items-center gap-1">
-            <Image alt={avatarAlt}
+            <Image width={96} height={96} alt={avatarAlt}
                  src={avatarLink}
             className="w-24 rounded-2xl"/>
             <h1 className="m-0 text-2xl font-bold">{name}</h1>

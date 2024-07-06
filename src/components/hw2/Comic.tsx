@@ -8,10 +8,10 @@ interface ComicProps {
 }
 export function Comic({ comicLink, comicAlt, title, date } : ComicProps) {
     return (
-        <div>
-            <h1>{title}</h1>
+        <div className="gap-4 flex flex-col">
+            <h1 className="text-2xl font-bold">{title}</h1>
             <p>{date}</p>
-            <Image src={comicLink} alt={comicAlt}/>
+            <Image width={674} height={184} src={comicLink} alt={comicAlt}/>
         </div>
     )
 }
