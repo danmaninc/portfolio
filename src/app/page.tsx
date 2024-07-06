@@ -9,7 +9,7 @@ import {Section} from "@/components/layout/section/Section";
 export default function App() {
 
   return (
-      <main className="w-auto my-20 mx-[25rem] min-[374px]:max-[960px]:my-[2.5rem] min-[374px]:max-[960px]:mx-2 min-[768px]:max-[1600px]:my-20 min-[768px]:max-[1600px]:mx-24">
+      <main className="w-auto my-10 mb-0 mx-[25rem] min-[374px]:max-[960px]:my-[2.5rem] min-[374px]:max-[960px]:mx-2 min-[768px]:max-[1600px]:my-10 min-[768px]:max-[1600px]:mx-24">
         <Section id={"introduction"}>
           <Profile
               name="Daniil Nikulin"

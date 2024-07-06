@@ -1,6 +1,6 @@
 import React from "react";
 import {TextMark} from "@/components/root/introduction/format/mark/TextMark";
-
+import Image from "next/image";
 interface ProfileProps {
     name: string;
     nicknames?: string[];
@@ -19,10 +19,10 @@ export function Profile({ name, nicknames, description, avatarLink, avatarAlt}: 
     }
     return (
         <div className="flex flex-col justify-center items-center gap-1">
-            <img alt={avatarAlt}
+            <Image alt={avatarAlt}
                  src={avatarLink}
             className="w-24 rounded-2xl"/>
-            <h1 className="m-0">{name}</h1>
+            <h1 className="m-0 text-2xl font-bold">{name}</h1>
             {nicks ?
                 <span className="text-white/75"><TextMark>aka</TextMark> {nicks}</span>
                 : null
