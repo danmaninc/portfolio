@@ -5,7 +5,7 @@ interface ProjectContainerProps {
 }
 export function ProjectContainer({ children } : ProjectContainerProps) {
     return (
-        <ul className="flex flex-col list-none gap-8 p-0">
+        <ul className="flex flex-col list-none gap-8 p-0 ">
             {children}
         </ul>
     )

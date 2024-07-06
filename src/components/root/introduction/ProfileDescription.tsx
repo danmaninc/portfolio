@@ -3,7 +3,7 @@ import {TextLink} from "./format/TextLink";
 
 export function ProfileDescription() {
     return (
-        <p className="text-center">Hello! I am a 19 y.o. <TextMark>web
+        <p className="text-center my-4">Hello! I am a 19 y.o. <TextMark>web
             developer</TextMark> and <TextMark>Computer Science</TextMark> student from <TextLink
             link="https://innopolis.university">Innopolis University</TextLink>.
             <br/>I love learning web development and applying my skills to projects. <br/> <br/>
