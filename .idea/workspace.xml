@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31e5d2af-0eea-4a3a-9a5b-db907bf467e2" name="Changes" comment="chore: try nojekyll with hash">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nojekyll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hw2/Comic.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hw2/ComicManager.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hw2/comic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/section/Section.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/section/section.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/root/contacts/Contact.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/root/contacts/ContactsContainer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/root/contacts/contacts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/root/introduction/Profile.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/root/introduction/ProfileDescription.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/root/introduction/format/TextLink.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/root/introduction/format/mark/TextMark.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/root/introduction/format/mark/mark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/root/introduction/profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/root/projects/Project.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/root/projects/ProjectContainer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/root/projects/projects.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw2/main.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw2/main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/api.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vite-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.node.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="mySelectedFileTypes">
+      <set>
+        <option value="Prisma" />
+        <option value="TypeScript" />
+      </set>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="0601d8ab6e78133c6a1fc2da933d687b7a3e49bc" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2hSsgkrysCEuY87k4kd6YLQlNT6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;hw5&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/danma/Documents/innopolis-labs/fwd&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\danma\\Documents\\dminc_dev\\sum24-frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danma\Documents\dminc_dev\sum24-frontend\src\components\layout" />
+      <recent name="C:\Users\danma\Documents\dminc_dev\sum24-frontend\src\components" />
+      <recent name="C:\Users\danma\Documents\dminc_dev\sum24-frontend\src\components\root" />
+      <recent name="C:\Users\danma\Documents\dminc_dev\sum24-frontend\src\components\section" />
+      <recent name="C:\Users\danma\Documents\dminc_dev\sum24-frontend\src\components\introduction\format\mark" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31e5d2af-0eea-4a3a-9a5b-db907bf467e2" name="Changes" comment="" />
+      <created>1717598925739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717598925739</updated>
+      <workItem from="1717598927032" duration="4574000" />
+      <workItem from="1717754064489" duration="3723000" />
+      <workItem from="1717950144038" duration="3635000" />
+      <workItem from="1718116803926" duration="6875000" />
+      <workItem from="1718830632296" duration="652000" />
+      <workItem from="1718870903720" duration="106000" />
+      <workItem from="1718905368597" duration="3516000" />
+      <workItem from="1719051515009" duration="34000" />
+      <workItem from="1719328280864" duration="1084000" />
+      <workItem from="1719648942450" duration="2831000" />
+      <workItem from="1719651828063" duration="1879000" />
+      <workItem from="1719654406967" duration="13410000" />
+      <workItem from="1719668588188" duration="4322000" />
+      <workItem from="1719672998365" duration="5397000" />
+      <workItem from="1719742385158" duration="17000" />
+      <workItem from="1719754061634" duration="1336000" />
+      <workItem from="1719763734175" duration="162000" />
+      <workItem from="1719774723619" duration="1806000" />
+      <workItem from="1720035472611" duration="358000" />
+      <workItem from="1720207574756" duration="1116000" />
+      <workItem from="1720271384652" duration="21000" />
+    </task>
+    <task id="LOCAL-00032" summary="chore: remove deploy from gh-pages">
+      <option name="closed" value="true" />
+      <created>1719659560208</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1719659560208</updated>
+    </task>
+    <task id="LOCAL-00033" summary="chore: remove dist">
+      <option name="closed" value="true" />
+      <created>1719659632329</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1719659632329</updated>
+    </task>
+    <task id="LOCAL-00034" summary="chore: change commit message">
+      <option name="closed" value="true" />
+      <created>1719659707451</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1719659707451</updated>
+    </task>
+    <task id="LOCAL-00035" summary="chore: change commit message">
+      <option name="closed" value="true" />
+      <created>1719660122479</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1719660122479</updated>
+    </task>
+    <task id="LOCAL-00036" summary="chore: remove bundle">
+      <option name="closed" value="true" />
+      <created>1719660575839</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1719660575839</updated>
+    </task>
+    <task id="LOCAL-00037" summary="chore: change commit message">
+      <option name="closed" value="true" />
+      <created>1719660619402</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1719660619402</updated>
+    </task>
+    <task id="LOCAL-00038" summary="chore: remove old files">
+      <option name="closed" value="true" />
+      <created>1719662819940</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1719662819940</updated>
+    </task>
+    <task id="LOCAL-00039" summary="chore: update gitignore">
+      <option name="closed" value="true" />
+      <created>1719662834025</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1719662834025</updated>
+    </task>
+    <task id="LOCAL-00040" summary="chore: update favicon and icon">
+      <option name="closed" value="true" />
+      <created>1719663014189</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1719663014189</updated>
+    </task>
+    <task id="LOCAL-00041" summary="chore: insert source code">
+      <option name="closed" value="true" />
+      <created>1719663392394</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1719663392394</updated>
+    </task>
+    <task id="LOCAL-00042" summary="chore: install react router">
+      <option name="closed" value="true" />
+      <created>1719667862420</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1719667862420</updated>
+    </task>
+    <task id="LOCAL-00043" summary="chore: remove index css">
+      <option name="closed" value="true" />
+      <created>1719667870948</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1719667870948</updated>
+    </task>
+    <task id="LOCAL-00044" summary="feat: create profile components">
+      <option name="closed" value="true" />
+      <created>1719667895025</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1719667895025</updated>
+    </task>
+    <task id="LOCAL-00045" summary="feat: create project components">
+      <option name="closed" value="true" />
+      <created>1719667901061</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1719667901061</updated>
+    </task>
+    <task id="LOCAL-00046" summary="feat: create text formatting components">
+      <option name="closed" value="true" />
+      <created>1719667917405</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1719667917405</updated>
+    </task>
+    <task id="LOCAL-00047" summary="feat: create contacts container">
+      <option name="closed" value="true" />
+      <created>1719667924785</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1719667924785</updated>
+    </task>
+    <task id="LOCAL-00048" summary="chore: configure router">
+      <option name="closed" value="true" />
+      <created>1719667940772</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1719667940772</updated>
+    </task>
+    <task id="LOCAL-00049" summary="feat: decompose main page components">
+      <option name="closed" value="true" />
+      <created>1719667958866</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1719667958866</updated>
+    </task>
+    <task id="LOCAL-00050" summary="feat: Section component">
+      <option name="closed" value="true" />
+      <created>1719667966853</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1719667966853</updated>
+    </task>
+    <task id="LOCAL-00051" summary="chore: decompose css">
+      <option name="closed" value="true" />
+      <created>1719668305644</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1719668305644</updated>
+    </task>
+    <task id="LOCAL-00052" summary="chore: add decomposed css">
+      <option name="closed" value="true" />
+      <created>1719668317346</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1719668317346</updated>
+    </task>
+    <task id="LOCAL-00053" summary="chore: restructure the project">
+      <option name="closed" value="true" />
+      <created>1719668602259</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1719668602260</updated>
+    </task>
+    <task id="LOCAL-00054" summary="chore: install dayjs as dependency">
+      <option name="closed" value="true" />
+      <created>1719672224261</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1719672224261</updated>
+    </task>
+    <task id="LOCAL-00055" summary="chore: move section to layout">
+      <option name="closed" value="true" />
+      <created>1719672241110</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1719672241110</updated>
+    </task>
+    <task id="LOCAL-00056" summary="fix: router">
+      <option name="closed" value="true" />
+      <created>1719672287790</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1719672287790</updated>
+    </task>
+    <task id="LOCAL-00057" summary="chore: create ComicManager">
+      <option name="closed" value="true" />
+      <created>1719672317945</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1719672317945</updated>
+    </task>
+    <task id="LOCAL-00058" summary="chore: create Comic view">
+      <option name="closed" value="true" />
+      <created>1719672326935</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1719672326935</updated>
+    </task>
+    <task id="LOCAL-00059" summary="chore: add basement for hw2">
+      <option name="closed" value="true" />
+      <created>1719672335539</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1719672335539</updated>
+    </task>
+    <task id="LOCAL-00060" summary="fix: path to components">
+      <option name="closed" value="true" />
+      <created>1719672342426</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1719672342426</updated>
+    </task>
+    <task id="LOCAL-00061" summary="fix: paths to css">
+      <option name="closed" value="true" />
+      <created>1719672388545</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1719672388545</updated>
+    </task>
+    <task id="LOCAL-00062" summary="huh?">
+      <option name="closed" value="true" />
+      <created>1719673030235</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1719673030236</updated>
+    </task>
+    <task id="LOCAL-00063" summary="huh?">
+      <option name="closed" value="true" />
+      <created>1719673056620</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1719673056620</updated>
+    </task>
+    <task id="LOCAL-00064" summary="chore: change css modules">
+      <option name="closed" value="true" />
+      <created>1719673354789</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1719673354789</updated>
+    </task>
+    <task id="LOCAL-00065" summary="chore: move css of hw2 to module">
+      <option name="closed" value="true" />
+      <created>1719673367917</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1719673367917</updated>
+    </task>
+    <task id="LOCAL-00066" summary="fix: eslint err">
+      <option name="closed" value="true" />
+      <created>1719673445982</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1719673445982</updated>
+    </task>
+    <task id="LOCAL-00067" summary="chore: change base">
+      <option name="closed" value="true" />
+      <created>1719691888886</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1719691888886</updated>
+    </task>
+    <task id="LOCAL-00068" summary="feat: add workflow for deployment">
+      <option name="closed" value="true" />
+      <created>1719691898376</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1719691898376</updated>
+    </task>
+    <task id="LOCAL-00069" summary="chore: change router">
+      <option name="closed" value="true" />
+      <created>1719693226699</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1719693226699</updated>
+    </task>
+    <task id="LOCAL-00070" summary="chore: change app location">
+      <option name="closed" value="true" />
+      <created>1719693529019</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1719693529019</updated>
+    </task>
+    <task id="LOCAL-00071" summary="chore: restore">
+      <option name="closed" value="true" />
+      <created>1719693652810</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1719693652810</updated>
+    </task>
+    <task id="LOCAL-00072" summary="chore: add 404">
+      <option name="closed" value="true" />
+      <created>1719693963456</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1719693963456</updated>
+    </task>
+    <task id="LOCAL-00073" summary="chore: add lang">
+      <option name="closed" value="true" />
+      <created>1719693977706</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1719693977706</updated>
+    </task>
+    <task id="LOCAL-00074" summary="chore: add basename">
+      <option name="closed" value="true" />
+      <created>1719694317509</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1719694317510</updated>
+    </task>
+    <task id="LOCAL-00075" summary="chore: support spa">
+      <option name="closed" value="true" />
+      <created>1719694676654</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1719694676654</updated>
+    </task>
+    <task id="LOCAL-00076" summary="chore: change pathsegments">
+      <option name="closed" value="true" />
+      <created>1719694958809</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1719694958809</updated>
+    </task>
+    <task id="LOCAL-00077" summary="chore: try to change router">
+      <option name="closed" value="true" />
+      <created>1719695448752</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1719695448752</updated>
+    </task>
+    <task id="LOCAL-00078" summary="chore: enable jekyll">
+      <option name="closed" value="true" />
+      <created>1719695554172</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1719695554172</updated>
+    </task>
+    <task id="LOCAL-00079" summary="chore: change to hash">
+      <option name="closed" value="true" />
+      <created>1719695666484</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1719695666485</updated>
+    </task>
+    <task id="LOCAL-00080" summary="chore: try nojekyll with hash">
+      <option name="closed" value="true" />
+      <created>1719695733018</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1719695733018</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="hw4" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: move section to layout" />
+    <MESSAGE value="fix: router" />
+    <MESSAGE value="chore: create ComicManager" />
+    <MESSAGE value="chore: create Comic view" />
+    <MESSAGE value="chore: add basement for hw2" />
+    <MESSAGE value="fix: path to components" />
+    <MESSAGE value="fix: paths to css" />
+    <MESSAGE value="huh?" />
+    <MESSAGE value="chore: change css modules" />
+    <MESSAGE value="chore: move css of hw2 to module" />
+    <MESSAGE value="fix: eslint err" />
+    <MESSAGE value="chore: change base" />
+    <MESSAGE value="feat: add workflow for deployment" />
+    <MESSAGE value="chore: change router" />
+    <MESSAGE value="chore: change app location" />
+    <MESSAGE value="chore: restore" />
+    <MESSAGE value="chore: add 404" />
+    <MESSAGE value="chore: add lang" />
+    <MESSAGE value="chore: add basename" />
+    <MESSAGE value="chore: support spa" />
+    <MESSAGE value="chore: change pathsegments" />
+    <MESSAGE value="chore: try to change router" />
+    <MESSAGE value="chore: enable jekyll" />
+    <MESSAGE value="chore: change to hash" />
+    <MESSAGE value="chore: try nojekyll with hash" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: try nojekyll with hash" />
+  </component>
+</project>
