@@ -56,17 +56,17 @@ export function ComicManager() {
     }
     if (comic.num === -1) {
         return (
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-center gap-8 bg-[#262626] w-[50rem] h-[25rem] p-16 rounded-2xl">
                 <h1 id="disclaimer" className="text-2xl font-medium">{!isLoading ? "Press the button to load comic." : "Loading..."}</h1>
                 {!isLoading ?
-                    <button type="button" id="get-comic-btn" className="bg-white rounded-2xl p-4 font-semibold text-base border-none hover:bg-white/90" onClick={handleRequest}>Load comic</button>
-                    : null
+                    <button type="button" id="get-comic-btn" className="bg-white rounded-2xl p-4 font-semibold text-black text-base border-none hover:bg-white/90" onClick={handleRequest}>Load comic</button>
+                    : <button type="button" id="get-comic-btn" className="bg-white rounded-2xl p-4 font-semibold text-black text-base border-none hover:bg-white/90 disabled:bg-white/50" onClick={handleRequest} disabled>Load comic</button>
                 }
             </div>
         )
     } else {
         return (
-            <div className="comic-container">
+            <div className="flex justify-center items-center flex-col bg-[#262626] w-[50rem] h-[25rem] p-16 rounded-2xl">
                 <Comic
                     title={comic.safe_title}
                     comicAlt={comic.alt}

@@ -10,7 +10,7 @@ interface ProjectProps {
 export function Project({ title, description, projectLink, logoLink, logoAlt }: ProjectProps) {
     return (
         <li className="flex items-center bg-[#262626] rounded-2xl p-8 gap-8">
-            <Image className="w-24 rounded-2xl" alt={logoAlt}
+            <Image width={96} height={96} className="w-24 rounded-2xl" alt={logoAlt}
                  src={logoLink}/>
             <div className="flex flex-col">
                 <span className="font-semibold text-xl min-[374px]:max-[960px]:text-base">{title}</span>
