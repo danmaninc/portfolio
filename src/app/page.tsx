@@ -6,25 +6,25 @@ import { Profile } from "@/components/root/introduction/Profile";
 import { ProfileDescription } from "@/components/root/introduction/ProfileDescription";
 import { Section } from "@/components/layout/section/Section";
 import Head from "next/head";
-import {Metadata} from "next";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  title: "Daniil Nikulin — Home",
+  description: "Personal website with portfolio",
+  authors: [{ name: "Daniil Nikulin", url: "/portfolio" }],
+  openGraph: {
     title: "Daniil Nikulin — Home",
     description: "Personal website with portfolio",
-    authors: [{ name: "Daniil Nikulin", url: "/portfolio"}],
-    openGraph: {
-        title: "Daniil Nikulin — Home",
-        description: "Personal website with portfolio",
-        siteName: "Daniil Nikulin — Home",
-        type: "website",
-        url: "https://danmaninc.github.io/portfolio"
-    }
+    siteName: "Daniil Nikulin — Home",
+    type: "website",
+    url: "https://danmaninc.github.io/portfolio",
+  },
 };
 
 export default function App() {
   return (
     <main className="w-auto my-10 mb-0 mx-[25rem] min-[374px]:max-[960px]:my-[2.5rem] min-[374px]:max-[960px]:mx-2 min-[768px]:max-[1600px]:my-10 min-[768px]:max-[1600px]:mx-24">
-        <Section id={"introduction"}>
+      <Section id={"introduction"}>
         <Profile
           name="Daniil Nikulin"
           nicknames={["danmaninc"]}
