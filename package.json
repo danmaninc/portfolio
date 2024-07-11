@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint && npx prettier . --check",
     "test": "jest",
-    "test-watch": "jest --watch",
-    "prepare": "husky"
+    "test-watch": "jest --watch"
   },
   "husky": {
     "hooks": {
