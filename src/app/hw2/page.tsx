@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     }
 };
 
-export async function getComic() {
+async function getComic() {
     const id = await fetchComicId({ email: "d.nikulin@innopolis.university" });
     const comicResponse = await fetchComic({ id: id.toString() });
 
