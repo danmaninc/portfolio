@@ -1,5 +1,18 @@
 import { Section } from "@/components/layout/section/Section";
+import {Metadata} from "next";
 
+export const metadata: Metadata = {
+    title: "Daniil Nikulin — Isaac",
+    description: "Check out the Isaac and dance with him",
+    authors: [{ name: "Daniil Nikulin", url: "/portfolio"}],
+    openGraph: {
+        title: "Daniil Nikulin — Isaac",
+        description: "Check out the Isaac and dance with him",
+        siteName: "Daniil Nikulin — Isaac",
+        type: "website",
+        url: "https://danmaninc.github.io/portfolio/isaac"
+    }
+};
 export default function Isaac() {
   return (
     <Section id={"isaac"} centered={true}>
