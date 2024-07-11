@@ -1,4 +1,4 @@
-name: Deploy danmaninc/portfolio to Pages
+name: Run CI pipeline before deploy
 
 on:
   push:
@@ -7,12 +7,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
 
 jobs:
   build:
@@ -68,19 +62,3 @@ jobs:
 
       - name: Build with Next.js
         run: npx --no-install next build
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./out
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
