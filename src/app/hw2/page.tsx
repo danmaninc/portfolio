@@ -7,13 +7,19 @@ import dayjs from "dayjs";
 export const metadata: Metadata = {
   title: "Daniil Nikulin — Comic",
   description: "Check out my XKCD comic",
-  authors: [{ name: "Daniil Nikulin", url: "/portfolio" }],
+  authors: [
+    {
+      name: "Daniil Nikulin",
+      url: "https://portfolio-eight-bay-37.vercel.app/",
+    },
+  ],
   openGraph: {
     title: "Daniil Nikulin — Comic",
     description: "Check out my XKCD comic",
     siteName: "Daniil Nikulin — Comic",
     type: "website",
-    url: "https://danmaninc.github.io/portfolio/hw2",
+    images: [{ url: "https://portfolio-eight-bay-37.vercel.app/image.png" }],
+    url: "https://portfolio-eight-bay-37.vercel.app/hw2",
   },
 };
 

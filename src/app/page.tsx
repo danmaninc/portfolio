@@ -5,19 +5,24 @@ import { ContactsContainer } from "@/components/root/contacts/ContactsContainer"
 import { Profile } from "@/components/root/introduction/Profile";
 import { ProfileDescription } from "@/components/root/introduction/ProfileDescription";
 import { Section } from "@/components/layout/section/Section";
-import Head from "next/head";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Daniil Nikulin — Home",
   description: "Personal website with portfolio",
-  authors: [{ name: "Daniil Nikulin", url: "/portfolio" }],
+  authors: [
+    {
+      name: "Daniil Nikulin",
+      url: "https://portfolio-eight-bay-37.vercel.app/",
+    },
+  ],
   openGraph: {
     title: "Daniil Nikulin — Home",
     description: "Personal website with portfolio",
     siteName: "Daniil Nikulin — Home",
     type: "website",
-    url: "https://danmaninc.github.io/portfolio",
+    url: "https://portfolio-eight-bay-37.vercel.app/",
+    images: [{ url: "https://portfolio-eight-bay-37.vercel.app/image.png" }],
   },
 };
 

@@ -4,13 +4,19 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Daniil Nikulin — Isaac",
   description: "Check out the Isaac and dance with him",
-  authors: [{ name: "Daniil Nikulin", url: "/portfolio" }],
+  authors: [
+    {
+      name: "Daniil Nikulin",
+      url: "https://portfolio-eight-bay-37.vercel.app/",
+    },
+  ],
   openGraph: {
     title: "Daniil Nikulin — Isaac",
     description: "Check out the Isaac and dance with him",
     siteName: "Daniil Nikulin — Isaac",
     type: "website",
-    url: "https://danmaninc.github.io/portfolio/isaac",
+    images: [{ url: "https://portfolio-eight-bay-37.vercel.app/image.png" }],
+    url: "https://portfolio-eight-bay-37.vercel.app/isaac",
   },
 };
 
