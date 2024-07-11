@@ -54,5 +54,8 @@ jobs:
       - name: Linting and formatting
         run: npm run lint
 
+      - name: Run unit tests
+        run: npm run test
+
       - name: Build with Next.js
         run: npx --no-install next build
