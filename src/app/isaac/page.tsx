@@ -13,6 +13,7 @@ export const metadata: Metadata = {
         url: "https://danmaninc.github.io/portfolio/isaac"
     }
 };
+
 export default function Isaac() {
   return (
     <Section id={"isaac"} centered={true}>
