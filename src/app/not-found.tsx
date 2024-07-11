@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function NotFound() {
   return (
     <main className="w-auto my-10 mb-0 mx-[25rem] min-[374px]:max-[960px]:my-[2.5rem] min-[374px]:max-[960px]:mx-2 min-[768px]:max-[1600px]:my-10 min-[768px]:max-[1600px]:mx-24">
